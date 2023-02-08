@@ -35,3 +35,14 @@ body {
     background: var(--bg-color);
     padding-left: 30rem;
 }
+
+body .active {
+    --black: #fff;
+    --ligth-color: #ddd;
+    --bg-color: #222;
+    --box-shadow: .4rem .4rem 1rem #111, 
+    -4.rem -4rem 1rem #333;
+--border: 1rem solid rgba(0, 0, 0, .4);
+--box-shadow-inset: .4rem .4rem 1rem #111 inset,
+          -4.rem -4rem 1rem #333 inset;
+}
