@@ -1,5 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+:root {
+    --blue: #366b43;
+    --black: #444;
+    --ligth-color: #777;
+    --bg-color: #e6e6e6;
+    --box-shadow: .4rem .4rem 1rem #ccc, 
+                  -4.rem -4rem 1rem #fff;
+    --border: 1rem solid rgba(0, 0, 0, .2);
+    --box-shadow-inset: .4rem .4rem 1rem #ccc inset,
+                        -4.rem -4rem 1rem #fff inset;
 }
+
