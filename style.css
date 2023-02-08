@@ -3,7 +3,7 @@
 
 
 :root {
-    --blue: #366b43;
+    --blue: #0a3fa1;
     --black: #444;
     --ligth-color: #777;
     --bg-color: #e6e6e6;
@@ -65,5 +65,85 @@ section {
 }
 
 .btn:hover {
-    
+    box-shadow: var(--box-shadow-inset);
+    color: var(--blue);
+}
+
+.heading {
+    text-align: center;
+    font-weight: 5rem;
+    color: var(--black);
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.heading span {
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: var(--bg-color);
+    width: 30rem;
+    border-right: var(--border);
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+.header .user img {
+    margin: 1rem 0;
+    border: 1rem solid transparent;
+    border-radius: 50%;
+    height: 18rem;
+    box-shadow: var(--box-shadow);
+}
+
+.header .user h3{
+    color: var(--blue);
+    font-size: 1.5rem
+}
+
+.header .navbar {
+    padding-top: 1rem;
+
+}
+
+.header .navbar a {
+    display: block;
+    margin: 1.5rem 0;
+    padding: .7rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+    box-shadow: var(--box-shadow);
+    color: var(--black);
+}
+
+.header .navbar a:hover {
+    box-shadow: var(--box-shadow-inset);
+    color: var(--blue);
+}
+
+#menu-btn {
+    position: fixed;
+    top: 1.5rem;
+    left: 2rem;
+    z-index: 1000;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    color: var(--black);
+    background: var(--bg-color);
+    display: none;
+}
+
+#menu-btn:hover {
+    color: var(--blue);
+    box-shadow: var(--box-shadow-inset);
 }
