@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
-    --pink:#416e99;
+    --bleu:#416e99;
     --black:#444;
     --light-color:#777;
     --bg-color:#d7e4e2;
@@ -63,7 +63,7 @@ section{
 
 .btn:hover{
     box-shadow: var(--box-shadow-inset);
-    color:var(--pink);
+    color:var(--bleu);
 }
 
 .heading{
@@ -75,7 +75,7 @@ section{
 }
 
 .heading span{
-    color:var(--pink);
+    color:var(--bleu);
     text-transform: uppercase;
 }
 
@@ -106,7 +106,7 @@ section{
 }
 
 .header .user p{
-    color:var(--pink);
+    color:var(--bleu);
     font-size: 1.5rem;
 }
 
@@ -126,7 +126,7 @@ section{
 
 .header .navbar a:hover{
     box-shadow: var(--box-shadow-inset);
-    color: var(--pink);
+    color: var(--bleu);
 }
 
 #menu-btn{
@@ -147,7 +147,7 @@ section{
 }
 
 #menu-btn:hover{
-    color:var(--pink);
+    color:var(--bleu);
     box-shadow: var(--box-shadow-inset);
 }
 
@@ -168,7 +168,7 @@ section{
 
 .home .content p{
     font-size: 2rem;
-    color:var(--pink);
+    color:var(--bleu);
     padding-bottom: .5rem;
 }
 
@@ -193,7 +193,7 @@ section{
 
 .home .share a:hover{
     box-shadow: var(--box-shadow-inset);
-    color:var(--pink);
+    color:var(--bleu);
 }
 
 .about .row{
@@ -241,7 +241,7 @@ section{
 }
 
 .about .row .content h3 span{
-    color:var(--pink);
+    color:var(--bleu);
 }
 
 .about .row .content p{
@@ -279,7 +279,7 @@ section{
 .about .row .progress .bar span{
     display: block;
     height: 100%;
-    background: var(--pink);
+    background: var(--bleu);
     border-radius: 5rem;
 }
 
@@ -346,7 +346,7 @@ section{
     top:0; left: 0;
     height: 100%;
     width: 100%;
-    background: var(--pink);
+    background: var(--bleu);
     z-index: -1;
     clip-path: circle(9rem at 5% 0%);
     transition: .3s linear;
@@ -450,7 +450,7 @@ section{
 }
 
 .credits span{
-    color: var(--pink);
+    color: var(--bleu);
 }
 
 #theme-toggler{
@@ -470,7 +470,7 @@ section{
 }
 
 #theme-toggler:hover{
-    color:var(--pink);
+    color:var(--bleu);
     box-shadow: var(--box-shadow-inset);
 }
 
