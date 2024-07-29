@@ -17,6 +17,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Portfólio criado no evento THE CODER PASS https://www.youtube.com/watch?v=ykQdvYZpWHY
 
-- [Acesse o projeto finalizado, online](https://ricantony6.github.io/Login-animado/)
+- [Acesse o projeto finalizado, online](https://ricantony6.github.io/my-portifolio/)
 
 ♥ Ricardo Antonio Rodrigues
