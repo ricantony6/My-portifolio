@@ -487,15 +487,15 @@ section {
 
     .header {
         left: -110%; /* esconde sidebar */
+        transition: left 0.4s linear; /* animação ao abrir/fechar */
     }
 
     .header.active {
-        left: 0%;
-        transition: .4s linear;
+        left: 0%; /* mostra sidebar */
     }
 
     #menu-btn {
-        display: initial; /* botão do menu aparece */
+        display: block; /* botão do menu aparece */
     }
 }
 
