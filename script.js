@@ -1,3 +1,4 @@
+// Tema claro/escuro
 // Seleciona o botão de alternância de tema
 let themeToggler = document.querySelector('#theme-toggler');
 
@@ -12,4 +13,18 @@ themeToggler.onclick = () => {
     } else {
         document.body.classList.remove('active'); // Tema claro ativado
     }
+};
+
+// ==============================
+// Botão hamburger (menu mobile)
+// ==============================
+
+// Seleciona o botão do menu e o header
+let menuBtn = document.getElementById('menu-btn'); // botão hamburger
+let header = document.querySelector('.header');   // sua sidebar/header
+
+// Adiciona evento de clique no botão hamburger
+menuBtn.onclick = () => {
+    header.classList.toggle('active');        // alterna visibilidade do menu
+    menuBtn.classList.toggle('fa-times');     // troca ícone entre barras e X
 };
